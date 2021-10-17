@@ -74,10 +74,12 @@
     float: right;
   }
 
-/* landing page image */
+/* landing page */
 
   #landing-page-image  {
     width: 600px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
   
   #landing h1{
@@ -100,6 +102,12 @@
 
   .img-fluid {
     height: auto;
+  }
+
+  #simplifying-math {
+    padding-left: 90px;
+    padding-right: 30px;
+    padding-top: 200px;
   }
 
   /* buttons on landing page */
@@ -162,7 +170,19 @@
     margin-bottom: 0;
     font-weight: 900;
     color: #020202;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
+
+  #our-impact h3{
+    font-size: 45px;
+  }
+
+  #our-impact p{
+    font-size: 25px;
+    padding-bottom: 50px;
+  }
+
 
 /* why m4m exists */
 
@@ -183,12 +203,21 @@
     margin-bottom: 0;
     font-weight: 900;
     color: #020202;
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+
+  #why-m4m-exists h3{
+    padding-top: 40px;
+    padding-right: 85px;
+    padding-left: 85px;
+    line-height: 45px;
   }
 
   /* learn math concepts easily */
 
   #landing-page-image-left  {
-    width: 600px;
+    width: 800px;
   }
   
   #learn-math-concepts h1{
@@ -196,6 +225,7 @@
     margin-bottom: 0;
     font-weight: 900;
     color: #020202;
+    padding-top: 200px;
   }
   
   #learn-math-concepts p{
@@ -208,13 +238,23 @@
 
   #landing-page-image-right {
     width: 600px;
+    padding-left: 80px;
   }
   
+  #meet-motivated-students{
+    padding-left: 90px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+
   #meet-motivated-students h1{
     font-size: 45px;
     margin-bottom: 0;
     font-weight: 900;
     color: #020202;
+    padding-top: 100px;
+
   }
   
   #meet-motivated-students p{
@@ -230,5 +270,27 @@
     margin-bottom: 0;
     font-weight: 900;
     color: #020202;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
   }
   
+
+  /* footer */
+
+  #footer p{
+    color: #ffffff;
+    line-height: 2.5;
+  }
+
+  #m4m-white{
+    width: 50%;
+  }
+
+  #footer-links{
+    padding-top: 50px;
+  }
+
+  #footer-ein{
+    padding-bottom: 50px;
+  }
