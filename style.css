@@ -132,19 +132,17 @@
   }
   
   .button2{
-
-    background-color:#ffffff;
-    color: #020202;
-    border: 2px solid #020202;
+    background-color:#ffffff !important;
+    color: #020202 !important;
+    border: 2px solid #020202 !important;
     box-shadow:3px 3px 3px rgb(207, 207, 207);  
     margin-left: 20px;
-
   }
   
   .button2:hover {
-    background-color: #5676F5; 
-    border: 2px solid #5676F5;
-    color:#Ffffff;
+    background-color: #5676F5 !important; 
+    border: 2px solid #5676F5 !important;
+    color:#Ffffff !important;
   }
   
   /* our impact */
