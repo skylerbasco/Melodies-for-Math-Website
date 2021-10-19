@@ -137,6 +137,7 @@
     color: #020202;
     border: 2px solid #020202;
     box-shadow:3px 3px 3px rgb(207, 207, 207);  
+    margin-left: 20px;
 
   }
   
@@ -265,14 +266,89 @@
 
   /* Hear from our members */
 
+  .highlight-2{
+    line-height: 40px;
+    color: #4C4C4C;
+    font-weight: bold;
+  }
+  
+  .highlight-3{
+    color: #A39E9E;
+  }
+
+  .box-2{
+    background-color:#fff;  
+    
+    padding-left:20px;
+    padding-right:20px;
+    border-radius: 20px;
+    width: 500px;
+    margin: 20px;
+
+  }
+
+  .box-2 p{
+    padding: 40px;
+    color: #4C4C4C
+  }
+
+
   #hear-from-members h1{
     font-size: 45px;
-    margin-bottom: 0;
+    margin-bottom: -80;
     font-weight: 900;
     color: #020202;
-    padding-top: 50px;
-    padding-bottom: 50px;
+  }
 
+  #hear-from p{
+    line-height: 80px;
+    color: #4C4C4C;
+  }
+
+  #testimonial-boxes{
+    padding-top: 0px;
+    padding-bottom: 60px;
+  }
+  
+  #hear-from{
+    padding-top: 50px;
+  }
+
+  .button {
+    background-color: #5676F5;
+    color:#ffffff;
+    border-radius: 50px;
+    font-size: 17px;
+    padding: 15px 28px 15px 28px;
+    border: 2px solid #5676F5;
+    font-weight: 400;
+  }
+
+  .button3{
+    margin-top: 20px;
+    box-shadow:3px 3px 3px rgb(207, 207, 207);  
+    margin-right: -70px;
+  }
+  
+  .button3:hover {
+    background-color: #D8E0FF; 
+    color:#5676F5;
+  }
+  
+  .button4{
+
+    background-color:#ffffff;
+    color: #020202;
+    border: 2px solid #020202;
+    box-shadow:3px 3px 3px rgb(207, 207, 207);  
+    margin-left: 90px;
+
+  }
+  
+  .button4:hover {
+    background-color: #5676F5; 
+    border: 2px solid #5676F5;
+    color:#Ffffff;
   }
   
 
@@ -292,5 +368,57 @@
   }
 
   #footer-ein{
-    padding-bottom: 50px;
+    padding-bottom: 30px;
   }
+
+  #tiktok{
+    width: 21px;
+    margin: 10px;
+  }
+
+  #instagram{
+    width: 25px;
+    margin: 10px;
+  }
+
+  #youtube{
+    width: 35px;
+    margin: 10px;
+  }
+
+  #linkedin{
+    width: 23px;
+    margin: 10px;
+  }
+
+  #discord{
+    width: 32px;
+    margin: 10px;
+  }
+
+  /*
+  ul {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+  }
+
+*/
+
+/* about page */
+
+/* our mission is...*/
+
+#here-is-a-message p{
+  line-height: 80px;
+  color: #4C4C4C;
+  padding-bottom: 80px;
+}
+
+#our-impact h1{
+  padding-bottom: 20px;
+  padding-top: 100px;
+}
