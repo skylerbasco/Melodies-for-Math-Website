@@ -1,7 +1,7 @@
 *, body {
-    font-family: 'Poppins', sans-serif;
-    color: #020202;
-  }
+  font-family: 'Poppins', sans-serif;
+  color: #020202;
+}
 
   html{
     scroll-behavior: smooth;
@@ -162,7 +162,9 @@
 
   .footer {
     background-color: #5676F5;
+
   }
+
 
   #our-impact h1{
     font-size: 45px;
@@ -174,7 +176,7 @@
   }
 
   #our-impact h3{
-    font-size: 45px;
+    font-size: 50px;
   }
 
   #our-impact p{
@@ -211,6 +213,7 @@
     padding-right: 85px;
     padding-left: 85px;
     line-height: 45px;
+    font-size: 27px;
   }
 
   /* learn math concepts easily */
@@ -363,6 +366,8 @@
 
   #footer-links{
     padding-top: 50px;
+    display: flex;
+  justify-content: space-between;
   }
 
   #footer-ein{
@@ -499,6 +504,14 @@ button {
   margin-bottom: 70px;
 }
 
+input:focus { 
+  outline: none !important;
+}
+
+textarea:focus { 
+  outline: none !important;
+}
+
 /* team page */
 
 .team-section {
@@ -515,15 +528,14 @@ button {
 .user-pic {
   width: 250px;
   height: 250px;
-  overflow: hidden;
   border-radius: 100%;
   margin: 20px auto 20px;
-  border: 3px solid #ddd;
+  overflow: hidden;
 }
 
-#team-current h4{
-  font-weight: 600;
+#team-headshots{
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-
-
+/* practice */
