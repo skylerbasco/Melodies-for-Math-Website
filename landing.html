@@ -19,6 +19,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
       </head>
     <body>
 
@@ -68,6 +72,7 @@
                 </div>
               </div>
             </div> 
+            <!--
             <div class="row align-items-start">
               <div class="col-12 col-sm-6 col-lg-3" align="center">
                 <h3><div class="counter" data-target="65000">0</div></h3>
@@ -85,10 +90,42 @@
                 <h3><div class="counter" data-target="50">0</div></h3>
                 <p>Original Songs</p>
               </div>
+              -->
             </div>
           </div>
         </section>
-
+        <div class="section"></div>
+  
+        <section id="our-impact">
+        <div class="counter-up">
+          <div class="content">
+            <div class="box">
+              <div class="counter">65000</div>
+              <div class="text">TikTok Followers</div>
+            </div>
+            <div class="box">
+              <div class="counter">500</div>
+              <div class="text">Discord Members</div>
+            </div>
+            <div class="box">
+              <div class="counter">1700</div>
+              <div class="text">YouTube Subcribers</div>
+            </div>
+            <div class="box">
+              <div class="counter">50</div>
+              <div class="text">Original Songs</div>
+            </div>
+          </div>
+        </div>
+        <script>
+        $(document).ready(function(){
+          $('.counter').counterUp({
+            delay: 10,
+            time: 1200
+          });
+        });
+        </script>
+        </section>
         
       <section id="why-m4m-exists">
         <div class="section second-section-2">
