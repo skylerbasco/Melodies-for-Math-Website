@@ -29,6 +29,3 @@ counters.forEach(counter => {
 });
 
 
-
-
-

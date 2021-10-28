@@ -49,6 +49,8 @@
     display:inline-block;
     vertical-align:top;
     font-weight: 500;
+    text-decoration: none;
+
   }
   
   .navigation-bar li {
@@ -58,6 +60,8 @@
     margin-top: 4px;
     margin-bottom: 4px;
     display: inline;
+    text-decoration: none;
+
   }
   
   .navigation-bar li a {    
@@ -162,6 +166,8 @@
 
   .footer {
     background-color: #5676F5;
+    text-decoration: none;
+
 
   }
 
@@ -176,7 +182,7 @@
   }
 
   #our-impact h3{
-    font-size: 50px;
+    font-size: 60px;
   }
 
   #our-impact p{
@@ -304,6 +310,7 @@
   #hear-from p{
     line-height: 80px;
     color: #4C4C4C;
+    font-size: 20px;
   }
 
   #testimonial-boxes{
@@ -358,6 +365,7 @@
   #footer p{
     color: #ffffff;
     line-height: 2.5;
+    text-decoration: none;
   }
 
   #m4m-white{
@@ -367,7 +375,14 @@
   #footer-links{
     padding-top: 50px;
     display: flex;
-  justify-content: space-between;
+    justify-content: space-between;
+    text-decoration: none;
+  }
+
+  
+  #footer-link:hover{
+    text-decoration: none;
+
   }
 
   #footer-ein{
@@ -413,6 +428,14 @@
 
 /* about page */
 
+#gradient-about{
+  background-image: linear-gradient(to right, #E8EDFF, #A9DAFF);
+}
+
+#highlight-bold{
+  color: #4C4C4C;
+  font-weight: 700;
+}
 /* our mission is...*/
 
 #here-is-a-message p{
@@ -539,3 +562,71 @@ textarea:focus {
 }
 
 /* practice */
+
+
+/* carousel */
+#quote-carousel 
+{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left 
+{
+  left: -12px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right 
+{
+  right: -12px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+#quote-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+#quote-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel */
+
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
