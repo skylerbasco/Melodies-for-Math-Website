@@ -610,6 +610,10 @@ textarea:focus {
   outline: none !important;
 }
 
+#youtube-channel-link{
+  color:#5676F5;
+}
+
 /* team page */
 
 .team-section {
